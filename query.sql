@@ -39,7 +39,7 @@ Relational Algebra 3:
 π employee_name, salary (σ salary > (ρ AVG(salary) (Employees)) (Employees))
 
 
-Query 4: Get the customer name and menu item name for all orders placed by a customer with the name "John Doe".
+Query 4: Get the customer name and menu item name for all orders placed by a customer with the name "Fabicon".
 
 
 SELECT C.customer_name, M.item_name
