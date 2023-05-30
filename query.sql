@@ -51,7 +51,6 @@ WHERE C.customer_name = 'Fabicon';
 
 
 Relational Algebra 4:
-
-π C.customer_name, M.item_name ((Customers ⨝ (customer_id = customer_id) Orders) ⨝ (order_id = order_id) OrderItems) ⨝ (item_id = item_id) Menu)
+π customer_name, item_name ((σ customer_name='Fabicon' (Customers ⋈ Orders ⋈ OrderItems)) ⋈ Menu)
 
 
