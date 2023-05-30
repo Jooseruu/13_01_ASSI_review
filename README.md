@@ -1,2 +1,0 @@
-# 13_01_ASSI_review
-Recovery from suspended block 03_01_SLID_Introduction_to_the_Relational_Model
